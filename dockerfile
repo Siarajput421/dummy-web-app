@@ -1,5 +1,5 @@
 FROM node:16
-WORKDIR /home/anuradha/Desktop/abc
+WORKDIR /dummy-web-app 
 COPY package*.json ./
 RUN npm install
 COPY . .
